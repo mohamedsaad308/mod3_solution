@@ -1,0 +1,100 @@
+
+
+.navbar , .navbar-default{
+	background-color: gray;
+	border: black solid 2px;
+	border-radius: 0;
+}
+
+#business-name {
+	padding: 20px;
+	margin: 20px;
+}
+
+.navbar-default .container-fluid .navbar-brand{
+	text-align: left;
+	padding : 10px;
+	color: black;
+	font-size: 2em;
+	font-weight: 600;
+	vertical-align: center;
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+	border-color: black;
+
+}
+
+hr.visible-xs {
+	border: black solid 1px;
+}
+#main-contents {
+	margin: 20px;
+
+
+}
+
+#menu-title {
+	color: black;
+	font-style: bold oblique; 
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+#section1 {
+	color: black;
+	background-color: gray;
+	
+}
+#section1-contents {
+	padding: 10px;
+}
+/*******************for large devices***********************/
+/*@media (min-width: 1200px) {
+	.container-fluid  {
+	background-color: gray;
+	border: black solid 2px;
+	padding: 10px;
+	width: 100%;
+}
+
+}
+/****************For Medium Devices**********************/
+/*@media (min-width: 992px) and (max-width: 1199px) {
+
+	.container-fluid  {
+	background-color: gray;
+	border: black solid 2px;
+	padding: 10px;
+	width: 100%;
+}
+}*/
+/**************For small devices**********************
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container-fluid  {
+	background-color: gray;
+	border: black solid 2px;
+	padding: 10px;
+	width: 100%;
+}
+
+}*/
+/********************For Extra Small Devices*****************/
+@media (max-width: 767px) {
+	#collapsable-nav {
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	font-weight: 600;
+	border-color: black;
+	border: black solid 2px;
+}
+button.navbar-toggle{
+	margin: 30px 20px;
+	color: black;
+}
+}
