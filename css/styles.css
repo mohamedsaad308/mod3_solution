@@ -38,18 +38,59 @@ hr.visible-xs {
 }
 
 #menu-title {
-	color: black;
-	font-style: bold oblique; 
+    font: 200 70px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+    color: #2b2b2b;
 	font-weight: 600;
 	margin-bottom: 40px;
 }
+/**********************Sections*******************
+*/
 #section1 {
 	color: black;
 	background-color: gray;
-	
+	margin: 10px;	
 }
-#section1-contents {
-	padding: 10px;
+#title1 {
+	font : 100 35px/1.2 'Merienda One', Helvetica, sans-serif;
+	font-weight: 600%;
+	padding-top: 30px;
+
+}
+#p1 {
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+#section2 {
+	color: black;
+	background-color: gray;
+	margin: 10px;	
+}
+#title2 {
+	font : 100 35px/1.2 'Merienda One', Helvetica, sans-serif;
+	font-weight: 600%;
+	padding-top: 30px;
+
+}
+#p2 {
+	font-size: 1.2em;
+	padding: 20px;
+}
+#section3 {
+	color: black;
+	background-color: gray;
+	margin: 10px;	
+}
+#title3 {
+	font : 100 35px/1.2 'Merienda One', Helvetica, sans-serif;
+	font-weight: 600%;
+	padding-top: 30px;
+
+}
+#p3 {
+	font-size: 1.2em;
+	padding: 20px;
 }
 /*******************for large devices***********************/
 /*@media (min-width: 1200px) {
